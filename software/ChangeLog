@@ -1,0 +1,47 @@
+2014-09-11 Stany MARCEL <stanypub@gmail.com>
+	* Release version 0.5, Display for PCB R07
+	* Change PID settings
+
+2014-08-29 Stany MARCEL <stanypub@gmail.com>
+	* Release version 0.4, fully fonctional for PCB R06 with hardware
+	patches.
+	* Reduce PID cycle duration to 50ms for faster reactions
+	* Force a USB Disconnect at boot
+	* Change usb descriptors
+	* Change serial message count to unsigned
+	* Correct default values when I2C erased
+	* Better calibration
+
+2014-08-24 Stany MARCEL <stanypub@gmail.com>
+	* Release version 0.3, fully fonctional for PCB R06 with hardware
+	patches.
+
+2014-08-21 Stany MARCEL <stanypub@gmail.com>
+	* Release version 0.2 with all functions integrated in debug.
+	* This version is for PCB R06 with some patches.
+	* IWDG not yet tested.
+	* PID is still not yet tunned.
+
+2014-08-19 Stany MARCEL <stanypub@gmail.com>
+	* Reorganize Directory tree and build system
+	* host directory with host tools
+	* tests directory with tests programs
+	* stm directory with files originaly generated with stm32cubemx
+	* src fwrtss main program
+	* include fwrtss includes
+	* tests/7seg/program.c 7 segment test program.
+
+2014-08-17 Stany MARCEL <stanypub@gmail.com>
+	* Add a python tool to plot content of messages from fwrtss
+
+2014-08-07 Stany MARCEL <stanypub@gmail.com>
+	* First version implementation (not yet tested).
+
+2014-08-02 Stany MARCEL <stanypub@gmail.com>
+	* Add base software generated from STM32CubeMx.
+	* Add SConstruct file to build this generated code.
+
+2014-07-24 Stany MARCEL <stanypub@gmail.com>
+
+	* Directory creation for future software.
+	* LICENCE.txt: Add New BSD licence.

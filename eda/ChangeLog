@@ -1,0 +1,61 @@
+2014-09-14 Stany MARCEL <stanypub@gmail.com>
+	* R07.1 (SCH) add USB power work around
+
+2014-08-25 Stany MARCEL <stanypub@gmail.com>
+
+	* R07 (SCH) Correct the following issues
+	* I#1: Correct all P-MOS wiring
+	* I#2: R with bad field missing in BOM
+	* I#3: USB pull-up added on DP, ID pull-down removed
+	* I#4: Invert Rx/Tx on UART and Add 100K pull-ups
+	* I#5: Reduce I2C pull-up to 1K for faster rinsing Edge
+	* I#6: Increase fc of AD8495 output filter
+	* Reannotate all components
+
+2014-08-16 Stany MARCEL <stanypub@gmail.com>
+
+	* R06.3 (SCH): Correct R27 ref.
+
+2014-08-12 Stany MARCEL <stanypub@gmail.com>
+
+	* R06.2 (SCH): Change display resistors from 68 to 100.
+
+2014-08-04 Stany MARCEL <stanypub@gmail.com>
+
+	* R06.1 (SCH): Correct mouser and values fields for QPx and QNx.
+
+2014-08-02 Stany MARCEL <stanypub@gmail.com>
+
+	* R06 (PCB+SCH): Replace heater control N-MOS by MOS driver. Add
+	12V plan on bottom layer.
+
+2014-08-01 Stany MARCEL <stanypub@gmail.com>
+
+	* R05 (PCB+SCH): Add P-CH MOSFET to drive each segment at 20mA.
+
+2014-07-31 Stany MARCEL <stanypub@gmail.com>
+
+	* R04 (PCB+SCH): Remove S7_C* net to MCU, Replace 68R by 330R
+	* R04 (PCB): Move some tracks, SWD and USB resistors.
+
+2014-07-23 Stany MARCEL <stanypub@gmail.com>
+
+	* R03.2 (PCB): Small minor PCB corrections and add OSH logo
+	* LICENCE.txt: Add CERN OHL V1.2 licence.
+
+2014-07-23 Stany MARCEL <stanypub@gmail.com>
+
+	* R03.1 (PCB): Move LDO for Mounting Hole clearance
+
+2014-07-23 Stany MARCEL <stanypub@gmail.com>
+
+	* R03 (PCB+SCH): Change some part numbers, generate production
+	output
+
+2014-07-18 Stany MARCEL <stanypub@gmail.com>
+
+	* R02 (PCB+SCH): Replace AOP with AD8495 for K Thermocouple
+
+2014-07-18 Stany MARCEL <stanypub@gmail.com>
+
+	* R01 (PCB+SCH): First release with OPA336U AOP

@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TP2
+#
+DEF TP2 TP 0 40 Y Y 1 F N
+F0 "TP" 0 -25 28 H V C CNN
+F1 "TP2" 0 25 28 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+X ~ 1 -150 0 100 R 39 39 1 1 I
+X ~ 2 150 0 100 L 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
