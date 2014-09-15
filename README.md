@@ -1,8 +1,6 @@
 fwrtss
 ======
 
-# Introduction
-
 [FWRTSS](https://www.ynsta.org/fwrtss/doc/html/fwrtss.html) is an open source hardware and software project of a temperature controlled soldering station designed to be used with Weller RT soldering tips.
 
 The majority of the software used to build and debug this project are also open source:
