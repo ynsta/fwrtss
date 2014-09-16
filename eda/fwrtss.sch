@@ -47,7 +47,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FWRTSS"
-Date "2014-09-14"
+Date "2014-09-16"
 Rev "07.1"
 Comp "(C) Stany MARCEL"
 Comment1 ""
@@ -364,7 +364,7 @@ P 3250 5450
 F 0 "D1" H 3250 5550 40  0000 C CNN
 F 1 "SS14-E3/61T" H 3250 5350 30  0000 C CNN
 F 2 "DSMD:DO214AC" H 3250 5450 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/1n4001-59286.pdf" H 3250 5450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ss12-100300.pdf" H 3250 5450 60  0001 C CNN
 F 4 "625-SS14-E3" H 3250 5450 60  0001 C CNN "mouser"
 	1    3250 5450
 	0    -1   -1   0   
@@ -1115,7 +1115,7 @@ P 3300 950
 F 0 "D2" H 3300 1050 40  0000 C CNN
 F 1 "SS14-E3/61T" H 3300 850 30  0000 C CNN
 F 2 "DSMD:DO214AC" H 3300 950 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/1n4001-59286.pdf" H 3300 950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ss12-100300.pdf" H 3300 950 60  0001 C CNN
 F 4 "625-SS14-E3" H 3300 950 60  0001 C CNN "mouser"
 	1    3300 950 
 	1    0    0    -1  
@@ -2852,6 +2852,6 @@ F 4 "667-ERJ-6ENF1002V" H 1400 3850 30  0001 C CNN "mouser"
 	1    1400 3850
 	0    -1   -1   0   
 $EndComp
-Text Notes 6100 1900 0    60   ~ 0
+Text Notes 5500 1950 0    39   ~ 0
 BUG: do not equip\nQP10 and R15
 $EndSCHEMATC
